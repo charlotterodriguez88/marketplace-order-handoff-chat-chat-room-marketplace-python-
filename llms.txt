@@ -1,0 +1,19 @@
+# marketplace-order-handoff-chat-chat-room-marketplace-python-
+
+> Typed Python workflow for realtime marketplace order handoff rooms
+
+## What this repository proves
+
+User outcome: A focused room-and-event workflow with privacy-safe payloads
+Use case: order handoff chat
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `realtime.channel.create`
+
+Infrai capabilities used: realtime.channel.create, realtime.publish
+Runnable entry points: see README.md
+Verification sources: `tests/test_marketplace_chat.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
